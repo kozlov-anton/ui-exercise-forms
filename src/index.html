@@ -1,13 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
+<head>
+    <meta charset="utf-8"/>
     <title>Password Reset Form</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./styles/app.pcss" />
+    <link rel="stylesheet" href="./styles/app.pcss"/>
     <script async src="./scripts/app.ts"></script>
-  </head>
-  <body>
-    <div>Replace me with the exercise design</div>
-  </body>
+</head>
+<body>
+    <div class="main">
+        <h1 class="title">Forgot Your Password?</h1>
+        <p class="sub-title">Please enter your email address below to receive a password reset link.</p>
+        <div class="reset-password">
+            <form id="reset-password-form" class="reset-password-form" action="" method="post">
+                <label for="email">Email Address</label>
+                <input id="email" name="email" type="email" placeholder="Your email address">
+                <div class="actions">
+                    <button type="submit" class="btn">Reset Password</button>
+                    <a href="/" class="go-back">Go back</a>
+                </div>
+            </form>
+            <div class="description">
+                <span class="description__title">Are you having trouble receiving your password reset?</span>
+                <div class="description__info">
+                    <p>We have had some customers who mistakenly believe they have a store account when in fact they only
+                        signed up to receive our VIP newsletter.</p>
+                    <ol>
+                        <li>Go back to the <a href="/">register page</a></li>
+                        <li>register with your email address <i>if do you already have an account the form will tell you</i>
+                        </li>
+                    </ol>
+                    <p>Some another text ...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
 </html>

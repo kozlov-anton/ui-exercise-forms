@@ -1,7 +1,15 @@
 {
   "users": [
-    { "id": 1, "email": "joe.bloggs@space48.com", "name": "Joe Bloggs" },
-    { "id": 2, "email": "john.doe@space48.com", "name": "John Doe" },
+    {
+      "id": 1,
+      "email": "joe.bloggs@space48.com",
+      "name": "Joe Bloggs"
+    },
+    {
+      "id": 2,
+      "email": "john.doe@space48.com",
+      "name": "John Doe"
+    },
     {
       "id": 3,
       "email": "erika.mustermann@space48.com",
@@ -11,6 +19,18 @@
       "id": 4,
       "email": "koosvandermerwe@space48.com",
       "name": "Koos van der Merwe"
+    },
+    {
+      "email": "sara@i.ua",
+      "id": 5
+    },
+    {
+      "email": "asd@i.ua",
+      "id": 6
+    },
+    {
+      "email": "qwe@i.ua",
+      "id": 7
     }
   ]
 }
