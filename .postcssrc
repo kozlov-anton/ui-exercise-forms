@@ -1,0 +1,15 @@
+{
+    "modules": false,
+    "plugins": {
+        "postcss-simple-vars": {
+            "silent": true
+        },
+        "postcss-nested": {},
+        "postcss-grid": {
+            "columns": 12
+        },
+        "autoprefixer": {
+            "grid": true
+        }
+    }
+}
